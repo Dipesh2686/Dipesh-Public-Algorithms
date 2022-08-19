@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .registration{
+            background-color: rgb(88, 180, 88);
+            display: inline-block;
+            text-align: center;
+            padding: 100px 100px 100px 100px;
+            margin-left: 500px;
+            margin-top: 100px;
+            border-style: solid;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration">
+    <h2><center>Registration Form</center></h2>
+    <center><form name="cust_form" action="success.html" method="get" target="_blank" autocomplete="off" novalidate><br>
+        <div>
+           <label for="name">Name : </label>
+           <input type="text" id="name" name="name" placeholder="Enter Your Name"/><br><br>
+        </div>
+        <div>
+         <label for="age">Age : </label>
+           <input type="age" id="age" name="age" placeholder="Age"/><br><br>
+        </div>
+        <div>
+        <label for="dropdown_list">Vaccine Name : </label>
+          <select id="dropdown_list" name="vname">
+            <option>Covishield</option>
+            <option>Covaxin</option>
+            <option>Sputnik</option>
+          </select><br><br>
+        </div>
+          <button type="submit" value="submit"autofocus>Submit
+          </button>
+        
+        </form>
+    </center>
+    </div>
+</body>
+</html>
